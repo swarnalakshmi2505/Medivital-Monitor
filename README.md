@@ -27,8 +27,7 @@ MediVital Monitor is a web-based health monitoring dashboard designed to track a
 
 - **Frontend:** HTML, JavaScript, TypeScript  
 - **Build Tool:** Vite  
-- **Styling:** Tailwind CSS, PostCSS  
-- **Config & Tooling:** ESLint, TypeScript Config  
+- **Styling:** Tailwind CSS
 - **Deployment:** Firebase Hosting  
 
 ---
@@ -80,9 +79,7 @@ yarn install
 npm run dev
 # or
 yarn dev
-```
-
-Open the URL shown in the terminal (usually `http://localhost:5173`) in your browser.
+```.
 
 ---
 
@@ -122,17 +119,6 @@ firebase deploy
 
 ---
 
-## 📸 Screenshots
-
-Add your UI screenshots here:
-
-```
-![Dashboard](./assets/dashboard.png)
-![Vitals](./assets/vitals.png)
-```
-
----
-
 ## 🔮 Future Enhancements
 
 - 📡 Live integration with IoT-based health sensors  
@@ -151,11 +137,11 @@ Prefinal-Year Artificial Intelligence & Machine Learning Student
 Java | Python | Machine Learning | Deep Learning | Frontend Developer  
 
 - GitHub: https://github.com/swarnalakshmi2505  
-- LinkedIn: (Add your LinkedIn link here)
-
+- LinkedIn: https://www.linkedin.com/in/swarna-lakshmi-b-511314311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 ---
 
 ## ✨ Quote
 
 > *“Technology should not just be smart — it should be kind.”*  
 > *Built with purpose, powered by learning.* 💙
+
