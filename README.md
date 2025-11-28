@@ -1,25 +1,25 @@
 # 🩺 MediVital Monitor
 
-MediVital Monitor is a web-based health monitoring dashboard designed to track and visualize patients’ vital signs in a simple, intuitive interface. It aims to support real-time or periodic monitoring of key parameters like heart rate, blood pressure, temperature, and oxygen saturation, helping caregivers make faster and better-informed decisions.
+MediVital Monitor is a web-based health monitoring dashboard designed to track and visualize patients’ vital signs in a simple, intuitive interface. It supports real-time or periodic monitoring of key parameters like heart rate, blood pressure, temperature, and oxygen saturation—enabling faster and better-informed medical decisions.
 
 ---
 
 ## 🚀 Features
 
 - 🔍 **Vitals Overview Dashboard**  
-  View key vitals such as heart rate, blood pressure, temperature, and SpO₂ in a single, clean interface.
+  View all key vitals such as heart rate, blood pressure, temperature, and SpO₂ in one clean interface.
 
 - 📊 **Visual Trends & Insights**  
-  Display recent readings using cards/sections that make it easy to identify abnormal values at a glance.
+  Display recent readings using cards and structured sections for quick analysis.
 
-- ⚠️ **Alerts for Critical Values**  
-  Highlight out-of-range vitals to quickly spot critical conditions.
+- ⚠️ **Critical Alerts**  
+  Highlights abnormal or dangerous values for faster attention.
 
 - 📱 **Responsive UI**  
-  Optimized layout for desktop and mobile screens using a modern frontend stack.
+  Fully optimized for desktop and mobile devices.
 
 - ☁️ **Firebase Integration (Config Ready)**  
-  Project is configured with Firebase, making it easy to host and optionally connect to a realtime database or Firestore for live data.
+  Ready for deployment and real-time data connectivity using Firebase.
 
 ---
 
@@ -28,18 +28,37 @@ MediVital Monitor is a web-based health monitoring dashboard designed to track a
 - **Frontend:** HTML, JavaScript, TypeScript  
 - **Build Tool:** Vite  
 - **Styling:** Tailwind CSS, PostCSS  
-- **Config & Tooling:** ESLint, TypeScript config files  
-- **Deployment:** Firebase Hosting
+- **Config & Tooling:** ESLint, TypeScript Config  
+- **Deployment:** Firebase Hosting  
 
 ---
 
-## 📂 Project Setup
+## 📂 Project Structure
 
-### ✅ Prerequisites
+```
+Medivital-Monitor/
+│
+├── public/              # Static assets
+├── src/                 # Source files
+│   ├── components/      # UI components
+│   ├── assets/          # Images & icons
+│   ├── main.ts          # App entry point
+│   └── style.css        # Global styles
+│
+├── firebase.json        # Firebase configuration
+├── package.json         # Dependencies & scripts
+├── tailwind.config.js   # Tailwind configuration
+├── vite.config.ts       # Vite configuration
+└── README.md            # Project documentation
+```
 
-- [Node.js](https://nodejs.org/) (LTS version recommended)  
+---
+
+## ✅ Prerequisites
+
+- Node.js (LTS version recommended)  
 - npm or yarn  
-- Git
+- Git  
 
 ---
 
@@ -49,7 +68,7 @@ MediVital Monitor is a web-based health monitoring dashboard designed to track a
 # 1️⃣ Clone the repository
 git clone https://github.com/swarnalakshmi2505/Medivital-Monitor.git
 
-# 2️⃣ Move into the project folder
+# 2️⃣ Navigate to the project folder
 cd Medivital-Monitor
 
 # 3️⃣ Install dependencies
@@ -61,26 +80,82 @@ yarn install
 npm run dev
 # or
 yarn dev
+```
 
-**##🎯 Future Enhancements**
+Open the URL shown in the terminal (usually `http://localhost:5173`) in your browser.
 
-Integration with live sensor/IoT data streams
+---
 
-Historical graphs & analytics for each vital
+## 📦 Build for Production
 
-User authentication for doctors/caregivers
+```bash
+npm run build
+# or
+yarn build
+```
 
-Patient-wise profiles and filtering
+Preview the production build:
 
-Notifications via email/SMS for critical events
+```bash
+npm run preview
+# or
+yarn preview
+```
 
-**##👩‍💻 Author**
+---
 
-Swarna Lakshmi
-Prefinal-year AI & ML student | Java & Python | ML & DL | Frontend Dev
+## ☁️ Firebase Deployment
 
-**GitHub:** @swarnalakshmi2505
+```bash
+# Install Firebase CLI
+npm install -g firebase-tools
 
-**LinkedIn:** https://www.linkedin.com/in/swarna-lakshmi-b-511314311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+# Login to Firebase
+firebase login
 
+# Initialize hosting (if not already done)
+firebase init hosting
 
+# Deploy the application
+firebase deploy
+```
+
+---
+
+## 📸 Screenshots
+
+Add your UI screenshots here:
+
+```
+![Dashboard](./assets/dashboard.png)
+![Vitals](./assets/vitals.png)
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- 📡 Live integration with IoT-based health sensors  
+- 📈 Graph-based historical health analytics  
+- 👤 Patient profile & multi-user system  
+- 🔐 Secure authentication for doctors and caregivers  
+- 🔔 Emergency alerts via Email/SMS  
+- 🤖 AI-based health risk prediction using ML  
+
+---
+
+## 👩‍💻 Author
+
+**Swarna Lakshmi**  
+Prefinal-Year Artificial Intelligence & Machine Learning Student  
+Java | Python | Machine Learning | Deep Learning | Frontend Developer  
+
+- GitHub: https://github.com/swarnalakshmi2505  
+- LinkedIn: (Add your LinkedIn link here)
+
+---
+
+## ✨ Quote
+
+> *“Technology should not just be smart — it should be kind.”*  
+> *Built with purpose, powered by learning.* 💙
