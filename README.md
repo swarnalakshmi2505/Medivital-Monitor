@@ -62,4 +62,25 @@ npm run dev
 # or
 yarn dev
 
+**##🎯 Future Enhancements**
+
+Integration with live sensor/IoT data streams
+
+Historical graphs & analytics for each vital
+
+User authentication for doctors/caregivers
+
+Patient-wise profiles and filtering
+
+Notifications via email/SMS for critical events
+
+**##👩‍💻 Author**
+
+Swarna Lakshmi
+Prefinal-year AI & ML student | Java & Python | ML & DL | Frontend Dev
+
+**GitHub:** @swarnalakshmi2505
+
+**LinkedIn:** https://www.linkedin.com/in/swarna-lakshmi-b-511314311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
 
